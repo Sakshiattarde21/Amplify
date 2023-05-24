@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>JQuery Mobile</title>
+  </head>
+
+  <style>
+       #img:hover{
+      box-shadow: 0px 0px 12px black;
+      border-radius: 50%; 
+    } 
+  </style>
+
+    <link rel="stylesheet" href="index.css">
+  <body>
+    <div data-role="page" style="background-color: azure">
+      <div data-role="header" data-theme="b">
+        <h1>Iceland</h1>
+      </div>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="index.html"  data-icon="home">Home</a></li>
+          <li><a href="about.html" data-icon="star">About Us</a></li>
+          <li><a href="register.html" data-icon="user">Register</a></li>
+        </ul>
+      </div>
+    
+      <center><h3>Gallery</h3></center>
+      <div class="content">
+        <center>
+          <div class="rows">
+            <a href="">
+            <img id="img" src="img/img1.jpeg" alt="Img1" width="240" height="200" /></a>
+            <img id="img" src="img/img2.jpg" alt="Img2" width="240" height="200" />
+            <img  id="img"  src="img/img3.jpeg" alt="Img3" width="240" height="200" />
+            <img id="img" src="img/img4.jpeg" alt="Img4" width="240" height="200" />
+            <img id="img" src="img/img5.jpeg" alt="Img4" width="240" height="200" />
+            <!-- <img src="img/img6.jpeg" alt="Img4" width="240" height="200" /> -->
+          </div>
+          <br />
+          <div class="rows">
+            <img id="img" src="img/img1.jpeg" alt="Img1" width="240" height="200" />
+            <img id="img" src="img/img2.jpg" alt="Img2" width="240" height="200" />
+            <img id="img" src="img/img3.jpeg" alt="Img3" width="240" height="200" />
+            <img id="img" src="img/img4.jpeg" alt="Img4" width="240" height="200" />
+            <img id="img" src="img/img5.jpeg" alt="Img4" width="240" height="200" />
+            <!-- <img src="img/img6.jpeg" alt="Img4" width="240" height="200" /> -->
+          </div>
+          <br />
+          <div class="rows">
+            <img id="img" src="img/img1.jpeg" alt="Img1" width="240" height="200" />
+            <img id="img" src="img/img2.jpg" alt="Img2" width="240" height="200" />
+            <img id="img" src="img/img3.jpeg" alt="Img3" width="240" height="200" />
+            <img id="img" src="img/img4.jpeg" alt="Img4" width="240" height="200" />
+            <img id="img" src="img/img5.jpeg" alt="Img4" width="240" height="200" />
+            <!-- <img src="img/img6.jpeg" alt="Img4" width="240" height="200" /> -->
+          </div>
+        </center>
+      </div>
+      <div data-role="footer">
+        <center>
+          <a href="index.html" class="ui-btn ui-btn-inline">Home</a>
+          <a href="about.html" class="ui-btn ui-btn-inline">About</a>
+          <a href="register.html" class="ui-btn ui-btn-inline">Register</a>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>
